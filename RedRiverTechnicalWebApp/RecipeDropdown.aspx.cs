@@ -73,8 +73,8 @@ namespace RedRiverTechnicalWebApp
                 Step2.Text = "Steeping " + recipe + lengthOfTime;
             }
             else
-            {
-                Step2.Text = "Brewing " + recipe + lengthOfTime;
+            { 
+                Step2.Text = "Brewing " + recipe + " grounds" + lengthOfTime;
             }
         }
 
