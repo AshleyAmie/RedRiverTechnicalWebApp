@@ -13,7 +13,7 @@
         </div>
         <div>
             <asp:DropDownList ID="RecipeDropdownList" runat="server">
-                <asp:ListItem Value="LemonTea">Lemon Tea</asp:ListItem>
+                <asp:ListItem Value="Lemon Tea">Lemon Tea</asp:ListItem>
                 <asp:ListItem Value="Coffee">Coffee</asp:ListItem>
                 <asp:ListItem Value="Chocolate">Chocolate</asp:ListItem>
             </asp:DropDownList>
@@ -25,6 +25,7 @@
         <br />
         <br />
         <asp:Label ID="L1" runat="server" EnableViewState="False"></asp:Label>  
+        <br />
 
         <br />
         <asp:Label ID="Step1" runat="server" EnableViewState="false"></asp:Label>

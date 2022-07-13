@@ -16,7 +16,8 @@ namespace RedRiverTechnicalWebApp {
         /// form1 control.
         /// </summary>
         /// <remarks>
-        /// Holds the form with all fields.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
@@ -24,7 +25,8 @@ namespace RedRiverTechnicalWebApp {
         /// RecipeDropdownList control.
         /// </summary>
         /// <remarks>
-        /// Dropdown list with the recipe options: Lemon Tea, Coffee, or Chocolate.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList RecipeDropdownList;
         
@@ -32,7 +34,8 @@ namespace RedRiverTechnicalWebApp {
         /// submit1 control.
         /// </summary>
         /// <remarks>
-        /// Button that submits the form.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button submit1;
         
@@ -40,7 +43,8 @@ namespace RedRiverTechnicalWebApp {
         /// L1 control.
         /// </summary>
         /// <remarks>
-        /// Label that tells user what drink they selected.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label L1;
         
@@ -48,35 +52,35 @@ namespace RedRiverTechnicalWebApp {
         /// Step1 control.
         /// </summary>
         /// <remarks>
-        /// The first step in the recipe process, dependent on 
-        /// user selection
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Step1;
-
+        
         /// <summary>
         /// Step2 control.
         /// </summary>
         /// <remarks>
-        /// The second step in the recipe process, dependent on 
-        /// user selection
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Step2;
-
+        
         /// <summary>
         /// Step3 control.
         /// </summary>
         /// <remarks>
-        /// The third step in the recipe process, dependent on 
-        /// user selection
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Step3;
-
+        
         /// <summary>
         /// Step4 control.
         /// </summary>
         /// <remarks>
-        /// The fourth step in the recipe process, dependent on 
-        /// user selection. Does not appear if Chocolate was selected.
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Step4;
     }

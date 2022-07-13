@@ -58,29 +58,58 @@ namespace RedRiverTechnicalWebApp
          */
         private void BoilWater(string recipe)
         {
-            throw new NotImplementedException();
+            Step1.Text = "Boiling water for " + recipe + ".";
         }
 
         /* Steeps the tea or coffee for three minutes
         */
         private void SteepDrink(string recipe)
-        {
-            throw new NotImplementedException();
+        {// string variable that prevents repeated code
+            string lengthOfTime = " for three minutes.";
+
+            // Determines whether the drink needs to steep or brew
+            if (recipe == "Lemon Tea")
+            {
+                Step2.Text = "Steeping " + recipe + lengthOfTime;
+            }
+            else
+            {
+                Step2.Text = "Brewing " + recipe + lengthOfTime;
+            }
         }
 
         /* Pours the selected drink into a cup
          */
         private void PourDrink(string recipe)
         {
-            throw new NotImplementedException();
+            Step3.Text = "Pouring " + recipe + " into cup.";
         }
 
         /* Adds lemon, milk and sugar, or drinking chocolate to 
          * the drink
          */
         private void AddToDrink(string recipe)
-        {
-            throw new NotImplementedException();
+        { 
+            // String variables that prevent repeated code
+            string adding = "Adding ";
+            string additive = "";
+
+            // Determines what needs to be added to the drink based on the recipe
+            if (recipe == "Lemon Tea")
+            {
+                additive = "lemon to ";
+                Step4.Text = adding + additive + recipe + ".";
+            }
+            else if (recipe == "Coffee")
+            {
+                additive = "milk and sugar to ";
+                Step4.Text = adding + additive + recipe + ".";
+            }
+            else
+            {
+                additive = "drinking chocolate powder to ";
+                Step2.Text = adding + additive + recipe + ".";
+            }
         }
 
     }
