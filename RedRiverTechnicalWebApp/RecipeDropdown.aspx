@@ -25,6 +25,16 @@
         <br />
         <br />
         <asp:Label ID="L1" runat="server" EnableViewState="False"></asp:Label>  
+
+        <br />
+        <asp:Label ID="Step1" runat="server" EnableViewState="false"></asp:Label>
+        <br />
+        <asp:Label ID="Step2" runat="server" EnableViewState="false"></asp:Label>
+        <br />
+        <asp:Label ID="Step3" runat="server" EnableViewState="false"></asp:Label>
+        <br />
+        <asp:Label ID="Step4" runat="server" EnableViewState="false"></asp:Label>
+
     </form>
 </body>
 </html>

@@ -16,8 +16,7 @@ namespace RedRiverTechnicalWebApp {
         /// form1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Holds the form with all fields.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
@@ -25,8 +24,7 @@ namespace RedRiverTechnicalWebApp {
         /// RecipeDropdownList control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Dropdown list with the recipe options: Lemon Tea, Coffee, or Chocolate.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList RecipeDropdownList;
         
@@ -34,8 +32,7 @@ namespace RedRiverTechnicalWebApp {
         /// submit1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Button that submits the form.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button submit1;
         
@@ -43,9 +40,44 @@ namespace RedRiverTechnicalWebApp {
         /// L1 control.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Label that tells user what drink they selected.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label L1;
+        
+        /// <summary>
+        /// Step1 control.
+        /// </summary>
+        /// <remarks>
+        /// The first step in the recipe process, dependent on 
+        /// user selection
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Step1;
+
+        /// <summary>
+        /// Step2 control.
+        /// </summary>
+        /// <remarks>
+        /// The second step in the recipe process, dependent on 
+        /// user selection
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Step2;
+
+        /// <summary>
+        /// Step3 control.
+        /// </summary>
+        /// <remarks>
+        /// The third step in the recipe process, dependent on 
+        /// user selection
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Step3;
+
+        /// <summary>
+        /// Step4 control.
+        /// </summary>
+        /// <remarks>
+        /// The fourth step in the recipe process, dependent on 
+        /// user selection. Does not appear if Chocolate was selected.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Step4;
     }
 }
